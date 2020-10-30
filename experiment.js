@@ -98,7 +98,7 @@ var credit_var = 0
 
 // task specific variables
 var congruent_stim = [{
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#f64747">RED</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#f64747">VERMELHO</div></div>', //claudio
 	data: {
 		trial_id: 'stim',
 		condition: 'congruent',
@@ -108,7 +108,7 @@ var congruent_stim = [{
 	},
 	key_answer: 82
 }, {
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#00bfff">BLUE</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#00bfff">AZUL</div></div>',//claudio
 	data: {
 		trial_id: 'stim',
 		condition: 'congruent',
@@ -118,7 +118,7 @@ var congruent_stim = [{
 	},
 	key_answer: 66
 },{
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#F1F227">YELLOW</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#F1F227">AMARELO</div></div>',//claudio
 	data: {
 		trial_id: 'stim',
 		condition: 'congruent',
@@ -130,7 +130,7 @@ var congruent_stim = [{
 }];
 
 var incongruent_stim = [{
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#f64747">BLUE</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#f64747">AZUL</div></div>',
 	data: {
 		trial_id: 'stim',
 		condition: 'incongruent',
@@ -140,7 +140,7 @@ var incongruent_stim = [{
 	},
 	key_answer: 82
 }, {
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#f64747">YELLOW</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#f64747">AMARELO</div></div>',
 	data: {
 		trial_id: 'stim',
 		condition: 'incongruent',
@@ -150,7 +150,7 @@ var incongruent_stim = [{
 	},
 	key_answer: 82
 }, {
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#00bfff">RED</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#00bfff">VERMELHO</div></div>',
 	data: {
 		trial_id: 'stim',
 		condition: 'incongruent',
@@ -160,7 +160,7 @@ var incongruent_stim = [{
 	},
 	key_answer: 66
 }, {
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#00bfff">YELLOW</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#00bfff">AMARELO</div></div>',
 	data: {
 		trial_id: 'stim',
 		condition: 'incongruent',
@@ -170,7 +170,7 @@ var incongruent_stim = [{
 	},
 	key_answer: 66
 }, {
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#F1F227">RED</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#F1F227">VERMELHO</div></div>',
 	data: {
 		trial_id: 'stim',
 		condition: 'incongruent',
@@ -180,7 +180,7 @@ var incongruent_stim = [{
 	},
 	key_answer: 89
 }, {
-	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#F1F227">BLUE</div></div>',
+	stimulus: '<div class = centerbox><div class = stroop-stim style = "font-weight:bold;color:#F1F227">AZUL</div></div>',
 	data: {
 		trial_id: 'stim',
 		condition: 'incongruent',
@@ -245,7 +245,7 @@ var instructions_block = {
 		trial_id: "instruction"
 	},
 	pages: [
-		'<div class = centerbox style="height:80vh"><p class = block-text>In this game you will see "color" words (RED, BLUE, GREEN, YELLOW) appear one at a time. The "ink" of the words also will be colored. For example, you may see: <span class = "large" style = "color:#f64747;font-weight:bold">RED</span>, <span class = "large" style = "color:#00bfff;font-weight:bold">BLUE</span> or <span class = "large" style = "color:#f64747;font-weight:bold">BLUE</span>.</p><p class = block-text>Your task is to press the button corresponding to the <strong><u>font color</u></strong> of the word. Respond as <u><strong>quickly and accurately</strong></u> as possible. The response keys are as follows:</p>' +
+		'<div class = centerbox style="height:80vh"><p class = block-text>In this game you will see "color" words (VERMELHO, AZUL, VERDE, AMARELO) appear one at a time. The "ink" of the words also will be colored. For example, you may see: <span class = "large" style = "color:#f64747;font-weight:bold">VERMELHO</span>, <span class = "large" style = "color:#00bfff;font-weight:bold">AZUL</span> or <span class = "large" style = "color:#f64747;font-weight:bold">AZUL</span>.</p><p class = block-text>Your task is to press the button corresponding to the <strong><u>font color</u></strong> of the word. Respond as <u><strong>quickly and accurately</strong></u> as possible. The response keys are as follows:</p>' +
 		response_keys + '</div>'
 	],
 	allow_keys: false,
